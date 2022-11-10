@@ -1,0 +1,78 @@
+I, [2022-11-11T01:46:09.183161 #63586]  INFO -- : Registered expected interaction POST /todo
+D, [2022-11-11T01:46:09.183407 #63586] DEBUG -- : {
+  "description": "A create to todo",
+  "providerState": "exists test-user",
+  "request": {
+    "method": "POST",
+    "path": "/todo",
+    "headers": {
+      "Authorization": "Bearer test-user-token",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "title": "歯を磨く"
+    }
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "done": {
+        "json_class": "Pact::SomethingLike",
+        "contents": false
+      },
+      "id": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "1"
+      },
+      "title": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "task"
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2022-11-11T01:46:09.335447 #63586]  INFO -- : Received request POST /todo
+D, [2022-11-11T01:46:09.335768 #63586] DEBUG -- : {
+  "path": "/todo",
+  "query": "",
+  "method": "post",
+  "body": {
+    "title": "歯を磨く"
+  },
+  "headers": {
+    "Content-Length": "24",
+    "Content-Type": "application/json",
+    "Host": "localhost:53464",
+    "User-Agent": "Go-http-client/1.1",
+    "Authorization": "Bearer test-user-token",
+    "Accept-Encoding": "gzip",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2022-11-11T01:46:09.336613 #63586]  INFO -- : Found matching response for POST /todo
+D, [2022-11-11T01:46:09.336828 #63586] DEBUG -- : {
+  "status": 201,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "done": {
+      "json_class": "Pact::SomethingLike",
+      "contents": false
+    },
+    "id": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "1"
+    },
+    "title": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "task"
+    }
+  }
+}
+I, [2022-11-11T01:46:09.340101 #63586]  INFO -- : Verifying - interactions matched
+I, [2022-11-11T01:46:09.341495 #63586]  INFO -- : Cleared interactions

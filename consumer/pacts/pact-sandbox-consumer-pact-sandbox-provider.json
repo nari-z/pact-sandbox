@@ -1,0 +1,52 @@
+{
+  "consumer": {
+    "name": "pact-sandbox-consumer"
+  },
+  "provider": {
+    "name": "pact-sandbox-provider"
+  },
+  "interactions": [
+    {
+      "description": "A create to todo",
+      "providerState": "exists test-user",
+      "request": {
+        "method": "POST",
+        "path": "/todo",
+        "headers": {
+          "Authorization": "Bearer test-user-token",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "title": "歯を磨く"
+        }
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "done": false,
+          "id": "1",
+          "title": "task"
+        },
+        "matchingRules": {
+          "$.body.done": {
+            "match": "type"
+          },
+          "$.body.id": {
+            "match": "type"
+          },
+          "$.body.title": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
