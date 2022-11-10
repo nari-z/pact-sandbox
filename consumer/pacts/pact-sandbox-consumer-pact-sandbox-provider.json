@@ -42,6 +42,24 @@
           }
         }
       }
+    },
+    {
+      "description": "A finish to todo",
+      "providerState": "exists todo",
+      "request": {
+        "method": "PATCH",
+        "path": "/todo/1",
+        "headers": {
+          "Authorization": "Bearer test-user-token",
+          "Content-Type": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
     }
   ],
   "metadata": {

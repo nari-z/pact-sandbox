@@ -1,5 +1,5 @@
-I, [2022-11-11T01:46:09.183161 #63586]  INFO -- : Registered expected interaction POST /todo
-D, [2022-11-11T01:46:09.183407 #63586] DEBUG -- : {
+I, [2022-11-11T02:03:21.543375 #67540]  INFO -- : Registered expected interaction POST /todo
+D, [2022-11-11T02:03:21.543583 #67540] DEBUG -- : {
   "description": "A create to todo",
   "providerState": "exists test-user",
   "request": {
@@ -35,8 +35,28 @@ D, [2022-11-11T01:46:09.183407 #63586] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2022-11-11T01:46:09.335447 #63586]  INFO -- : Received request POST /todo
-D, [2022-11-11T01:46:09.335768 #63586] DEBUG -- : {
+I, [2022-11-11T02:03:21.699821 #67540]  INFO -- : Registered expected interaction PATCH /todo/1
+D, [2022-11-11T02:03:21.700107 #67540] DEBUG -- : {
+  "description": "A finish to todo",
+  "providerState": "exists todo",
+  "request": {
+    "method": "PATCH",
+    "path": "/todo/1",
+    "headers": {
+      "Authorization": "Bearer test-user-token",
+      "Content-Type": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "metadata": null
+}
+I, [2022-11-11T02:03:21.702351 #67540]  INFO -- : Received request POST /todo
+D, [2022-11-11T02:03:21.702576 #67540] DEBUG -- : {
   "path": "/todo",
   "query": "",
   "method": "post",
@@ -46,15 +66,15 @@ D, [2022-11-11T01:46:09.335768 #63586] DEBUG -- : {
   "headers": {
     "Content-Length": "24",
     "Content-Type": "application/json",
-    "Host": "localhost:53464",
+    "Host": "localhost:54052",
     "User-Agent": "Go-http-client/1.1",
     "Authorization": "Bearer test-user-token",
     "Accept-Encoding": "gzip",
     "Version": "HTTP/1.1"
   }
 }
-I, [2022-11-11T01:46:09.336613 #63586]  INFO -- : Found matching response for POST /todo
-D, [2022-11-11T01:46:09.336828 #63586] DEBUG -- : {
+I, [2022-11-11T02:03:21.703364 #67540]  INFO -- : Found matching response for POST /todo
+D, [2022-11-11T02:03:21.703599 #67540] DEBUG -- : {
   "status": 201,
   "headers": {
     "Content-Type": "application/json"
@@ -74,5 +94,26 @@ D, [2022-11-11T01:46:09.336828 #63586] DEBUG -- : {
     }
   }
 }
-I, [2022-11-11T01:46:09.340101 #63586]  INFO -- : Verifying - interactions matched
-I, [2022-11-11T01:46:09.341495 #63586]  INFO -- : Cleared interactions
+I, [2022-11-11T02:03:21.705718 #67540]  INFO -- : Received request PATCH /todo/1
+D, [2022-11-11T02:03:21.705905 #67540] DEBUG -- : {
+  "path": "/todo/1",
+  "query": "",
+  "method": "patch",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "localhost:54052",
+    "User-Agent": "Go-http-client/1.1",
+    "Authorization": "Bearer test-user-token",
+    "Accept-Encoding": "gzip",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2022-11-11T02:03:21.706143 #67540]  INFO -- : Found matching response for PATCH /todo/1
+D, [2022-11-11T02:03:21.706242 #67540] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
+I, [2022-11-11T02:03:21.707464 #67540]  INFO -- : Verifying - interactions matched
+I, [2022-11-11T02:03:21.708692 #67540]  INFO -- : Cleared interactions
