@@ -55,7 +55,7 @@ func Test_todoBacicUsecase(t *testing.T) {
 			},
 		}).
 		WillRespondWith(dsl.Response{
-			Status:  201,
+			Status:  http.StatusCreated,
 			Headers: dsl.MapMatcher{"Content-Type": dsl.String("application/json")},
 			Body: dsl.Match(&TODO{
 				ID:    "1",
@@ -74,7 +74,7 @@ func Test_todoBacicUsecase(t *testing.T) {
 			Body:    nil,
 		}).
 		WillRespondWith(dsl.Response{
-			Status:  200,
+			Status:  http.StatusOK,
 			Headers: dsl.MapMatcher{"Content-Type": dsl.String("application/json")},
 			Body:    nil,
 		})
