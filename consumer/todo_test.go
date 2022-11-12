@@ -18,7 +18,7 @@ type TODO struct {
 	Done  bool   `json:"done" pact:"example=false"`
 }
 
-func TestConsumer(t *testing.T) {
+func Test_todoBacicUsecase(t *testing.T) {
 	// Create Pact connecting to local Daemon
 	pact := &dsl.Pact{
 		Consumer: "pact-sandbox-consumer",
