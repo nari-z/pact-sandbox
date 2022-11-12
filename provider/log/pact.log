@@ -1,0 +1,207 @@
+# Logfile created on 2022-11-13 01:15:29 +0900 by logger.rb/56815
+I, [2022-11-13T01:15:29.892163 #79917]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:15:29.892465 #79917]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:15:29.892534 #79917] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:15:29.914452 #79917]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:15:29 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:15:29.914566 #79917] DEBUG -- : body: 
+I, [2022-11-13T01:15:29.920995 #79917]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:15:29.921236 #79917]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:15:29.921290 #79917] DEBUG -- : body :
+I, [2022-11-13T01:15:29.924940 #79917]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:15:29 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:15:29.925062 #79917] DEBUG -- : body: 
+I, [2022-11-13T01:29:23.959011 #82329]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:29:23.959360 #82329]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:29:23.959430 #82329] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:29:23.974512 #82329]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:29:23 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:29:23.974657 #82329] DEBUG -- : body: 
+I, [2022-11-13T01:29:23.978714 #82329]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:29:23.978902 #82329]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:29:23.978939 #82329] DEBUG -- : body :
+I, [2022-11-13T01:29:23.982150 #82329]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:29:23 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:29:23.982232 #82329] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:35:26.377792 #83297]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:35:26.378039 #83297]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:35:26.378119 #83297] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:35:26.393220 #83297]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:35:26 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:35:26.393311 #83297] DEBUG -- : body: 
+I, [2022-11-13T01:35:26.397642 #83297]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:35:26.397832 #83297]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:35:26.397867 #83297] DEBUG -- : body :
+I, [2022-11-13T01:35:26.401242 #83297]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:35:26 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:35:26.401327 #83297] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:36:09.093719 #83558]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:36:09.096092 #83558]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:36:09.096194 #83558] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:36:09.111997 #83558]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:36:09 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:36:09.112114 #83558] DEBUG -- : body: 
+I, [2022-11-13T01:36:09.117623 #83558]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:36:09.117871 #83558]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:36:09.117937 #83558] DEBUG -- : body :
+I, [2022-11-13T01:36:09.121621 #83558]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:36:09 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:36:09.121777 #83558] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:37:22.338537 #84372]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:37:22.338777 #84372]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:37:22.338827 #84372] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:37:22.353713 #84372]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:37:22 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:37:22.353847 #84372] DEBUG -- : body: 
+I, [2022-11-13T01:37:22.357822 #84372]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:37:22.357995 #84372]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:37:22.358055 #84372] DEBUG -- : body :
+I, [2022-11-13T01:37:22.361302 #84372]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:37:22 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:37:22.361386 #84372] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:38:46.819162 #84619]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:38:46.819438 #84619]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:38:46.819495 #84619] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:38:46.834762 #84619]  INFO -- : Received response with status: 502, headers: {"Date"=>"Sat, 12 Nov 2022 16:38:46 GMT", "Content-Length"=>"0"}, see debug logs for body
+D, [2022-11-13T01:38:46.834875 #84619] DEBUG -- : body: 
+I, [2022-11-13T01:38:46.840134 #84619]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:38:46.840353 #84619]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:38:46.840467 #84619] DEBUG -- : body :
+I, [2022-11-13T01:38:46.844584 #84619]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:38:46 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:38:46.844679 #84619] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:39:53.709801 #84896]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:39:53.710186 #84896]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:39:53.710253 #84896] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:39:53.725352 #84896]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:39:53 GMT"}, see debug logs for body
+D, [2022-11-13T01:39:53.725506 #84896] DEBUG -- : body: {"id":"0","title":"歯を磨く","done":false}
+I, [2022-11-13T01:39:53.921767 #84896]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:39:53.922168 #84896]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:39:53.922234 #84896] DEBUG -- : body :
+I, [2022-11-13T01:39:53.926089 #84896]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:39:53 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:39:53.926189 #84896] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:41:55.614470 #85184]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:41:55.614739 #85184]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:41:55.614797 #85184] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:41:55.632699 #85184]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:41:55 GMT"}, see debug logs for body
+D, [2022-11-13T01:41:55.632814 #85184] DEBUG -- : body: {"id":"0","title":"歯を磨く","done":false}
+I, [2022-11-13T01:41:55.639622 #85184]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:41:55.639849 #85184]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:41:55.639892 #85184] DEBUG -- : body :
+I, [2022-11-13T01:41:55.643406 #85184]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:41:55 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:41:55.643521 #85184] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:42:29.024808 #85467]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:42:29.025814 #85467]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:42:29.025885 #85467] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:42:29.042341 #85467]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:42:29 GMT"}, see debug logs for body
+D, [2022-11-13T01:42:29.042516 #85467] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:42:29.049279 #85467]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:42:29.049528 #85467]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:42:29.049571 #85467] DEBUG -- : body :
+I, [2022-11-13T01:42:29.053011 #85467]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:42:29 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:42:29.053111 #85467] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:43:39.565097 #85693]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:43:39.565362 #85693]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:43:39.565416 #85693] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:43:39.580445 #85693]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:43:39 GMT"}, see debug logs for body
+D, [2022-11-13T01:43:39.580546 #85693] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:43:39.586493 #85693]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:43:39.586687 #85693]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:43:39.586747 #85693] DEBUG -- : body :
+I, [2022-11-13T01:43:39.590289 #85693]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:43:39 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:43:39.590391 #85693] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:44:04.280562 #85898]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:44:04.280928 #85898]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:44:04.280991 #85898] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:44:04.296506 #85898]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:44:04 GMT"}, see debug logs for body
+D, [2022-11-13T01:44:04.296656 #85898] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:44:04.302767 #85898]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:44:04.302976 #85898]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:44:04.303052 #85898] DEBUG -- : body :
+I, [2022-11-13T01:44:04.306401 #85898]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:44:04 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:44:04.306485 #85898] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:49:00.730575 #86766]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:49:00.730851 #86766]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:49:00.730905 #86766] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:49:00.745356 #86766]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:49:00 GMT"}, see debug logs for body
+D, [2022-11-13T01:49:00.745471 #86766] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:49:00.751611 #86766]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:49:00.751831 #86766]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:49:00.751874 #86766] DEBUG -- : body :
+I, [2022-11-13T01:49:00.755327 #86766]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:49:00 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:49:00.755457 #86766] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:49:19.158313 #86917]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:49:19.158589 #86917]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:49:19.158652 #86917] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:49:19.173546 #86917]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:49:19 GMT"}, see debug logs for body
+D, [2022-11-13T01:49:19.173677 #86917] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:49:19.179736 #86917]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:49:19.179964 #86917]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:49:19.180027 #86917] DEBUG -- : body :
+I, [2022-11-13T01:49:19.183246 #86917]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:49:19 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:49:19.183334 #86917] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:51:07.114013 #87350]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:51:07.114270 #87350]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:51:07.114328 #87350] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:51:07.129802 #87350]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:51:07 GMT"}, see debug logs for body
+D, [2022-11-13T01:51:07.129927 #87350] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:51:07.136292 #87350]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:51:07.137254 #87350]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:51:07.137320 #87350] DEBUG -- : body :
+I, [2022-11-13T01:51:07.140826 #87350]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:51:07 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:51:07.140917 #87350] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:55:09.540576 #88371]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:55:09.540825 #88371]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:55:09.540883 #88371] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:55:09.556722 #88371]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:55:09 GMT"}, see debug logs for body
+D, [2022-11-13T01:55:09.556823 #88371] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:55:09.563017 #88371]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:55:09.563254 #88371]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:55:09.563302 #88371] DEBUG -- : body :
+I, [2022-11-13T01:55:09.567367 #88371]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:55:09 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:55:09.567491 #88371] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:55:34.126443 #88630]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:55:34.126688 #88630]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:55:34.126742 #88630] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:55:34.141728 #88630]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:55:34 GMT"}, see debug logs for body
+D, [2022-11-13T01:55:34.142452 #88630] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:55:34.147357 #88630]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:55:34.147598 #88630]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:55:34.147657 #88630] DEBUG -- : body :
+I, [2022-11-13T01:55:34.151136 #88630]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:55:34 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:55:34.151233 #88630] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T01:57:29.139017 #91068]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T01:57:29.140099 #91068]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T01:57:29.140180 #91068] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T01:57:29.156725 #91068]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:57:29 GMT"}, see debug logs for body
+D, [2022-11-13T01:57:29.156883 #91068] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T01:57:29.162064 #91068]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T01:57:29.162252 #91068]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T01:57:29.162318 #91068] DEBUG -- : body :
+I, [2022-11-13T01:57:29.165750 #91068]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 16:57:29 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2022-11-13T01:57:29.165872 #91068] DEBUG -- : body: 404 page not found
+
+I, [2022-11-13T02:03:12.094212 #92712]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T02:03:12.094515 #92712]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T02:03:12.094587 #92712] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T02:03:12.110748 #92712]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"46", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sat, 12 Nov 2022 17:03:12 GMT"}, see debug logs for body
+D, [2022-11-13T02:03:12.110886 #92712] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T02:03:12.116145 #92712]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T02:03:12.116390 #92712]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T02:03:12.116438 #92712] DEBUG -- : body :
+I, [2022-11-13T02:03:12.119994 #92712]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"0", "Content-Type"=>"application/json", "Date"=>"Sat, 12 Nov 2022 17:03:12 GMT"}, see debug logs for body
+D, [2022-11-13T02:03:12.120132 #92712] DEBUG -- : body: 
+I, [2022-11-13T02:06:32.305815 #93069]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists test-user A create to todo with POST /todo returns a response which has status code 201'
+I, [2022-11-13T02:06:32.306100 #93069]  INFO -- : Sending POST request to path: "/todo" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists test-user"}]}, see debug logs for body
+D, [2022-11-13T02:06:32.306166 #93069] DEBUG -- : body :{"title":"歯を磨く"}
+I, [2022-11-13T02:06:32.325939 #93069]  INFO -- : Received response with status: 201, headers: {"Content-Length"=>"46", "Content-Type"=>"application/json", "Date"=>"Sat, 12 Nov 2022 17:06:32 GMT"}, see debug logs for body
+D, [2022-11-13T02:06:32.326047 #93069] DEBUG -- : body: {"id":"1","title":"歯を磨く","done":false}
+I, [2022-11-13T02:06:32.328820 #93069]  INFO -- : Running example 'Verifying a pact between pact-sandbox-consumer and pact-sandbox-provider Given exists todo A finish to todo with PATCH /todo/1 returns a response which has status code 200'
+I, [2022-11-13T02:06:32.329094 #93069]  INFO -- : Sending PATCH request to path: "/todo/1" with headers: {"HTTP_AUTHORIZATION"=>"Bearer test-user-token", "CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Authorization,Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"exists todo"}]}, see debug logs for body
+D, [2022-11-13T02:06:32.329156 #93069] DEBUG -- : body :
+I, [2022-11-13T02:06:32.334094 #93069]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"0", "Content-Type"=>"application/json", "Date"=>"Sat, 12 Nov 2022 17:06:32 GMT"}, see debug logs for body
+D, [2022-11-13T02:06:32.334245 #93069] DEBUG -- : body: 
